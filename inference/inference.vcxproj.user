@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-d C:/Users/range/Desktop/crf_opt/videoparsing/run/DemoSeq.cfg -i 10 --XYT.PottsWt 5 --XYT.sigmas 0.7 0.75 15 --XYTRGB.PottsWt 11 --XYTRGB.sigmas 12 14 40 5 5 5 -s 0 -n 100 --display_save 2 --out_wildcard C:/Users/range/Desktop/crf_opt/videoparsing/run/Results_WithFSO/05VD_%06d.png -f  C:/Users/range/Desktop/crf_opt/videoparsing/run/VWFXY-05VD-000000-000049-000030.feat C:/Users/range/Desktop/crf_opt/videoparsing/run/VWFXY-05VD-000025-000074-000055.feat C:/Users/range/Desktop/crf_opt/videoparsing/run/VWFXY-05VD-000050-000099-000080.feat</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-d C:/Users/range/Desktop/crf_opt/videoparsing/run/DemoSeq.cfg -i 10 --XYT.PottsWt 5 --XYT.sigmas 0.7 0.75 15 --XYTRGB.PottsWt 11 --XYTRGB.sigmas 12 14 40 5 5 5 -s 0 -n 100 --display_save 2 --out_wildcard C:/Users/range/Desktop/crf_opt/videoparsing/run/Results_WithFSO/05VD_%06d.png -f  C:/Users/range/Desktop/crf_opt/videoparsing/run/VWFXY-05VD-000000-000049-000030.feat C:/Users/range/Desktop/crf_opt/videoparsing/run/VWFXY-05VD-000025-000074-000055.feat C:/Users/range/Desktop/crf_opt/videoparsing/run/VWFXY-05VD-000050-000099-000080.feat</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

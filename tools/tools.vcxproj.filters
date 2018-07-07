@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\VideoParsing">
+      <UniqueIdentifier>{9ac7d718-c795-4126-af65-68639e198845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VideoParsing\Core">
+      <UniqueIdentifier>{15d713ee-f449-4354-affb-9903ba854e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VideoParsing\DenseGM">
+      <UniqueIdentifier>{d1436e7f-2f9a-4e4e-8f2f-4683027aeaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VideoParsing\Features">
+      <UniqueIdentifier>{bd0246dd-0015-45b8-80cb-2a6006fdc88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VideoParsing\IO">
+      <UniqueIdentifier>{40736b30-25f8-4c9a-b2ea-5357bd67fe30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VideoParsing\Utils">
+      <UniqueIdentifier>{e144ecf1-6c37-49b6-837e-4aaa24f1562f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\VideoParsing\Core\Config.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\CoordToIndex.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\EigenOpenCVUtils.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\EigenSerialization.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\EigenUtils.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\IndexToCoord.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\SerializationHelper.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Core\Track2D.h">
+      <Filter>Source Files\VideoParsing\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\BlockVideoGM.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\ConcurrentHashTable.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\ConcurrentPermutohedralLattice.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\Dense2DGridGM.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\DenseGM.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\DenseKernels.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\HashTable.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\HigherOrderFactors.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\HigherOrderPottsFactor.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\PairwiseFactors.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\PairwiseFunctions.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\PartialParallelPermutohedralLattice.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\PermutohedralLattice.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\DenseGM\VideoGM.h">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Features\DifferentialOperators.h">
+      <Filter>Source Files\VideoParsing\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Features\FeatureHelper.h">
+      <Filter>Source Files\VideoParsing\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Features\LinearSolver.h">
+      <Filter>Source Files\VideoParsing\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Features\LinearSolverHelper.h">
+      <Filter>Source Files\VideoParsing\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Features\VisualizeFeatures.h">
+      <Filter>Source Files\VideoParsing\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\Dataset.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\EdgesIO.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\FeatureIO.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\OpticalFlowIO.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\SequenceDataIO.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\TracksIO.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\IO\UnaryIO.h">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Utils\ColorizeFlow.h">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Utils\FilterHelper.h">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Utils\ProgramOptionsHelper.h">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Utils\ScopedTimer.h">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Utils\SemanticLabel.h">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VideoParsing\Utils\VisualizationHelper.h">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\VideoParsing\DenseGM\BlockVideoGM.cpp">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\DenseGM\Dense2DGridGM.cpp">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\DenseGM\DenseGM.cpp">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\DenseGM\HigherOrderFactors.cpp">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\DenseGM\VideoGM.cpp">
+      <Filter>Source Files\VideoParsing\DenseGM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Features\VisualizeFeatures.cpp">
+      <Filter>Source Files\VideoParsing\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\Dataset.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\EdgesIO.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\FeatureIO.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\OpticalFlowIO.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\SequenceDataIO.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\TracksIO.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\IO\UnaryIO.cpp">
+      <Filter>Source Files\VideoParsing\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Utils\ColorizeFlow.cpp">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Utils\FilterHelper.cpp">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Utils\ProgramOptionsHelper.cpp">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Utils\ScopedTimer.cpp">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Utils\SemanticLabel.cpp">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VideoParsing\Utils\VisualizationHelper.cpp">
+      <Filter>Source Files\VideoParsing\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="benchmarkSegementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="convertUncompressedEdgeMapToEXR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exportOFTracks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="importOFTracks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="joinFeatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeCamvid32ToCamvid11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verifyLabelImages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeDatasetUnaries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeFeaturesUV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeFeaturesXY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeFeaturesXYUV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeInconsistentTracks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeMaxUnaries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeOpticalFlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeOpticalFlowAsMagnitude.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="visualizeTracks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
